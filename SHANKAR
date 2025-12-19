@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Official Support Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO & Safety -->
+<meta name="description" content="Official support and information page. Get help and connect with our team.">
+<meta name="robots" content="index, follow">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+body{
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+}
+.card{
+  width:100%;
+  max-width:420px;
+  background:rgba(0,0,0,0.55);
+  border-radius:16px;
+  padding:28px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+.logo{
+  width:70px;
+  height:70px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#00c6ff,#0072ff);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+}
+h1{
+  font-size:24px;
+  margin-bottom:8px;
+}
+p{
+  font-size:14px;
+  opacity:0.9;
+  line-height:1.5;
+}
+.btn{
+  display:block;
+  margin-top:22px;
+  padding:14px;
+  background:#25D366;
+  color:#fff;
+  text-decoration:none;
+  font-size:17px;
+  font-weight:600;
+  border-radius:10px;
+  transition:0.3s;
+}
+.btn:hover{
+  transform:scale(1.04);
+  background:#1ebe5d;
+}
+.features{
+  margin-top:18px;
+  text-align:left;
+  font-size:13px;
+}
+.features li{
+  margin-bottom:8px;
+  list-style:none;
+}
+.features li::before{
+  content:"✔ ";
+  color:#00ff99;
+}
+.footer{
+  margin-top:18px;
+  font-size:12px;
+  opacity:0.7;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="logo">★</div>
+
+  <h1>Official Support Center</h1>
+  <p>
+    This page is created to provide information, assistance and official support.
+    Our team is available to guide you with your queries.
+  </p>
+
+  <!-- WhatsApp Button -->
+  <a class="btn" href="https://wa.me/918081429634" target="_blank">
+    Contact on WhatsApp
+  </a>
+
+  <ul class="features">
+    <li>Verified & secure support</li>
+    <li>No false promises</li>
+    <li>Information purpose only</li>
+    <li>Fast response</li>
+  </ul>
+
+  <div class="footer">
+    © 2025 Support Center<br>
+    This website does not guarantee earnings or outcomes.
+  </div>
+</div>
+
+</body>
+</html>
